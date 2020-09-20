@@ -1,0 +1,29 @@
+body {
+    margin-left: 2%;
+}
+#list-to-buy {
+    list-style-type: none;
+    padding-left: 0px;
+}
+li {
+    padding-left: 1%;
+    border: 1px solid black;
+    width: 40%;
+    height: 95px;
+    margin-bottom: 20px;
+}
+.product {
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(171, 170, 170);
+}
+.check-btn {
+    cursor: pointer;
+    background-color: rgb(42, 186, 42);
+    border: none;
+}
+.delete-btn {
+    cursor: pointer;
+    background-color: red;
+    border: none;
+}
